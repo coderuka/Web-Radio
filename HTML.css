@@ -1,0 +1,43 @@
+body {
+  background-color: #AA98A9;
+  font-family: Pacifico, Pacifico;
+  margin: 0;
+  padding: 100px;
+  text-align: center;
+}
+
+h6 { color: ;
+font-family:Quicksand}
+
+
+h1 {
+  color: red;
+  text-align: center
+}
+
+audio {
+  margin: 20px auto;
+  display: block;
+}
+
+#song-title {
+  color: #555555;
+  margin-bottom: 10px;
+}
+
+music-icon {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  margin: 20px auto;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
